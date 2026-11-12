@@ -46,6 +46,12 @@ Thumbs.db
 # 本地配置
 local.properties
 
+# 临时测试脚本
 main1.java
-mian2.java
+main2.java
 main3.java
+f1.xml
+f2.xml
+f3.xml
+# release目录产物
+app/release/
