@@ -1,0 +1,14 @@
+# Add project specific R8 rules here.
+# AGP will combine all keep rule files in src/main/keepRules to pass to R8
+#
+# For more details, see:
+#   https://d.android.com/r/tools/r8/keep-rules
+
+# Xposed 入口由 assets/xposed_init 以字符串形式引用，必须整类保留
+-keep class com.cownow.rsmod.XposedInit { *; }
+-keep class com.cownow.rsmod.** { *; }
+
+# 框架 API 只在运行时存在（compileOnly），不要 warn / 不要裁掉接口实现
+-keep class de.robv.android.xposed.** { *; }
+-dontwarn de.robv.android.xposed.**
+-dontwarn sun.misc.**

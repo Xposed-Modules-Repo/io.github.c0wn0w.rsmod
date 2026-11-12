@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 所有配色都走 values / values-night 里的 rs_* 资源，深色模式自动切换 -->
+    <style name="Theme.Rsmod.Base" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/rs_primary</item>
+        <item name="colorOnPrimary">@color/rs_on_primary</item>
+        <item name="colorPrimaryContainer">@color/rs_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/rs_on_primary_container</item>
+
+        <item name="colorSecondary">@color/rs_secondary</item>
+        <item name="colorOnSecondary">@color/rs_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/rs_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/rs_on_secondary_container</item>
+
+        <item name="colorTertiary">@color/rs_tertiary</item>
+        <item name="colorTertiaryContainer">@color/rs_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/rs_on_tertiary_container</item>
+
+        <item name="android:colorBackground">@color/rs_surface</item>
+        <item name="colorSurface">@color/rs_surface</item>
+        <item name="colorOnSurface">@color/rs_on_surface</item>
+        <item name="colorSurfaceVariant">@color/rs_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/rs_on_surface_variant</item>
+        <item name="colorOutline">@color/rs_outline</item>
+
+        <item name="colorError">@color/rs_error</item>
+        <item name="colorOnError">@color/rs_on_error</item>
+        <item name="colorErrorContainer">@color/rs_error_container</item>
+        <item name="colorOnErrorContainer">@color/rs_on_error_container</item>
+    </style>
+
+    <style name="Theme.Rsmod" parent="Theme.Rsmod.Base" />
+</resources>

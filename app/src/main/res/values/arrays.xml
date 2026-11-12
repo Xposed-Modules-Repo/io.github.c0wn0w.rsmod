@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      LSPosed 推荐作用域：
+      - 游戏本体：真正干活的进程
+      - 模块自身：让设置页能即时显示“已激活 / 已注入”（不勾也能靠游戏心跳显示为已注入）
+    -->
+    <string-array name="xposed_scope">
+        <item>com.turbochilli.rollingsky</item>
+        <item>com.cownow.rsmod</item>
+    </string-array>
+</resources>

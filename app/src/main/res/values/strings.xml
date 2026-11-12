@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">RsMod</string>
+    <string name="xposed_description">滚动的天空LSP模块：内购破解、去除TapTap防沉迷、MD5校验绕过、内存补丁(角色无敌)</string>
+
+    <!-- 界面 -->
+    <string name="ui_subtitle">LSPosed 模块 · com.turbochilli.rollingsky</string>
+    <string name="ui_header_title">RsMod</string>
+    <string name="ui_header_subtitle">内购 / 防沉迷 / 角色无敌</string>
+
+    <string name="ui_status_active">已激活</string>
+    <string name="ui_status_inactive">未激活</string>
+    <string name="ui_status_unknown">未检测到</string>
+    <string name="ui_status_config_failed">配置未生效</string>
+    <string name="ui_status_detail_self">LSPosed 已注入本应用</string>
+    <string name="ui_status_detail_game">游戏进程已注入 · %1$s · 配置 %2$s</string>
+    <string name="ui_status_detail_game_bad">已注入 · %1$s · 配置读取失败</string>
+    <string name="ui_status_detail_none">启动一次游戏再回来即可显示；也可把 RsMod 自身加入 LSPosed 作用域</string>
+    <string name="ui_cfg_provider">直连</string>
+    <string name="ui_cfg_prefs">prefs</string>
+    <string name="ui_cfg_defaults">读取失败</string>
+    <string name="ui_cfg_unknown">未知</string>
+
+    <string name="ui_section_apk">Apk接口功能</string>
+    <string name="ui_section_hero">角色无敌功能</string>
+    <string name="ui_section_advanced">高级设置</string>
+    <string name="ui_section_targets">目标表</string>
+    <string name="ui_section_paths">rva.txt 查找路径</string>
+    <string name="ui_section_tips">提示</string>
+
+    <string name="ui_row_integrity">MD5校验/反Hook绕过</string>
+    <string name="ui_row_integrity_sub">放行 MD5check，并拦截游戏自杀式 killProcess</string>
+    <string name="ui_row_pay">内购破解</string>
+    <string name="ui_row_pay_sub">payOfProductID 直接回调支付成功</string>
+    <string name="ui_row_compliance">去除防沉迷验证</string>
+    <string name="ui_row_compliance_sub">TapTap 合规、实名与支付限额全部放行</string>
+    <string name="ui_row_push">推送payPushRewardOfInAppID</string>
+    <string name="ui_row_push_sub">额外按商品 ID 补发奖励</string>
+
+    <string name="ui_row_native">总开关</string>
+    <string name="ui_row_native_sub">对 libil2cpp.so 写入道具不坏补丁</string>
+    <string name="ui_row_allproc">修改所有进程</string>
+    <string name="ui_row_allproc_sub">默认只注入游戏主进程</string>
+    <string name="ui_row_strict">防写坏进程</string>
+    <string name="ui_row_strict_sub">首指令与脚本记录不符时跳过写入</string>
+
+    <string name="ui_mask_hint">Hook开关 (9 位 0/1)</string>
+    <string name="ui_mask_helper">默认 100111111，顺序对应下方目标表，错误修改可能会导致补丁失效</string>
+    <string name="ui_rva_hint">自定义 RVA (留空 = 用内置默认值)</string>
+    <string name="ui_rva_helper">9 位 HEX，逗号分隔</string>
+
+    <string name="ui_save">保存</string>
+    <string name="ui_reset">恢复默认</string>
+    <string name="ui_export">导出 rva.txt 到应用外部目录</string>
+
+    <string name="ui_reset_title">恢复默认设置？</string>
+    <string name="ui_reset_message">所有开关与自定义 RVA 都会回到脚本里的初始值。</string>
+    <string name="ui_confirm">恢复</string>
+    <string name="ui_cancel">取消</string>
+
+    <string name="ui_saved">已保存，重启游戏生效</string>
+    <string name="ui_mask_error">必须是 9 位 0/1</string>
+    <string name="ui_rva_error">需要 9 个十六进制数</string>
+    <string name="ui_export_done">已导出到 %1$s</string>
+    <string name="ui_export_fail">导出失败：%1$s</string>
+    <string name="ui_no_ext_dir">外部目录不可用</string>
+
+    <string name="ui_tips">1. 游戏更新后若 RVA 校验失败，日志里会出现 [SKIP]，把新 RVA 填进 rva.txt 或上面的输入框\n2. 改完点保存，然后强停游戏再启动\n3. 日志查看：LSPosed 管理器 → 日志，过滤 RsMod</string>
+
+    <string name="ui_content_desc_icon">功能图标</string>
+</resources>

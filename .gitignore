@@ -1,0 +1,51 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Android Studio 配置
+.idea/
+.gradle/
+build/
+captures/
+gradle/caches/
+gradle/wrapper/gradle-wrapper.jar
+
+# 模块app内编译产物
+app/build/
+app/.cxx/
+
+# 签名文件（非常重要！绝对不要上传jks）
+*.jks
+*.keystore
+*.ks
+
+# 打包出来的apk
+*.apk
+*.apks
+*.aab
+
+# 系统垃圾文件
+.DS_Store
+Thumbs.db
+
+# Log
+*.log
+
+# 本地配置
+local.properties
+
+main1.java
+mian2.java
+main3.java

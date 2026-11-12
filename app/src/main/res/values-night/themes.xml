@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Rsmod" parent="Theme.Rsmod.Base">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/rs_surface</item>
+        <item name="android:navigationBarColor">@color/rs_surface</item>
+    </style>
+</resources>
